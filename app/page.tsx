@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import TopCountries from "@/components/TopCountries";
 import WhyStudyAbroad from "@/components/WhyStudyAbroad";
 
 export default function Home() {

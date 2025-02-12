@@ -1,5 +1,6 @@
 import AdmissionProcess from "@/components/AdmissionProcess";
 import Hero from "@/components/Hero";
+import LeadForm from "@/components/LeadForm";
 import TopCountries from "@/components/TopCountries";
 import WhyStudyAbroad from "@/components/WhyStudyAbroad";
 

@@ -1,3 +1,4 @@
+import AdmissionProcess from "@/components/AdmissionProcess";
 import Hero from "@/components/Hero";
 import TopCountries from "@/components/TopCountries";
 import WhyStudyAbroad from "@/components/WhyStudyAbroad";
@@ -8,6 +9,8 @@ export default function Home() {
       <Hero />
       <WhyStudyAbroad />
       <TopCountries />
+      <AdmissionProcess />
+      <LeadForm />
     </main>
   )
 }

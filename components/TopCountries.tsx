@@ -11,13 +11,13 @@ export default function TopCountries() {
                     {countries.map((country, index) => (
                         <div key={index} className="bg-white p-4 rounded-lg shadow-md text-center">
                             <Image
-                                src={`/${country}.jpg`}
+                                src={`/${country.toLowerCase()}.jpg`}
                                 alt={`${country} flag`}
                                 width={100}
                                 height={100}
                                 className="mx-auto mb-4 rounded-full"
                                 unoptimized
-                                />
+                            />
                             <h3 className="font-semibold">{country}</h3>
                         </div>
                     ))}

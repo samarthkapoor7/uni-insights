@@ -16,6 +16,7 @@ export default function TopCountries() {
                                 width={100}
                                 height={100}
                                 className="mx-auto mb-4 rounded-full"
+                                unoptimized
                                 />
                             <h3 className="font-semibold">{country}</h3>
                         </div>
